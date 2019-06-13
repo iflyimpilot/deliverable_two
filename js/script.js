@@ -1,6 +1,6 @@
 
       //var select = document.querySelector('select');
-      var para = document.querySelector('p');
+      var result = document.querySelector('p');
       var eventTypeSelect = document.getElementById('eventType')
 		  var weatherSelect = document.getElementById('tempFahr')
       //var temperature = 29;
@@ -13,41 +13,26 @@
        function setEventType() {
         var choice = eventTypeSelect.value;
         if(choice === 'casual') {
-          para.textContent = 'Wear something comfy.';
+          result.textContent = 'Wear something comfy.';
+          console.log(result.textContent);
         } else if(choice === 'semi-formal') {
-          para.textContent = 'Wear a polo.';
+          result.textContent = 'Wear a polo.';
+          console.log(result.textContent);
         } else if(choice === 'formal') {
-          para.textContent = 'Wear a suit.';
+          result.textContent = 'Wear a suit.';
+          console.log(result.textContent);
         }
       }
       	function setWeatherType() {
         var choice = weatherSelect.value;
         if(choice === 'under54') {
-          para.textContent = 'Wear a coat.';
+          result.textContent = 'Wear a coat.';
+          console.log(result.textContent);
         } else if(choice === '54-70') {
-          para.textContent = 'Wear a jacket.';
+          result.textContent = 'Wear a jacket.';
+          console.log(result.textContent);
         } else if(choice === 'above70') {
-          para.textContent = 'No jacket needed.';
+          result.textContent = 'No jacket needed.';
+          console.log(result.textContent);
         }
       }
-
-     /* function setWeather() {
-        var choice = select.value;
-
-        if(choice === 'casual') {
-          para.textContent = 'Wear something comfy.';
-        } else if(choice === 'semi-formal') {
-          para.textContent = 'Wear a polo.';
-        } else if(choice === 'formal') {
-          para.textContent = 'Wear a suit.';
-        }
-
-         if(choice === 'under54') {
-          para.textContent = 'Wear a coat.';
-        } else if(choice === '54-70') {
-          para.textContent = 'Wear a jacket.';
-        } else if(choice === 'above70') {
-          para.textContent = 'No jacket needed.';
-        }
-      }
-      */
