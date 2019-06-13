@@ -1,11 +1,10 @@
 
-      //var select = document.querySelector('select');
       var result = document.querySelector('p');
       var eventTypeSelect = document.getElementById('eventType')
 		  var weatherSelect = document.getElementById('tempFahr')
-      //var temperature = 29;
 
-      //select.onchange = setWeather;
+
+    
       eventTypeSelect.onchange = setEventType;
       weatherSelect.onchange = setWeatherType;
 
